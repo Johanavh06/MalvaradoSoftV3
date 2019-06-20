@@ -46,14 +46,249 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="EstadosFrmGestionarTipoNota.cs" />
+    <Compile Include="FormBuscarAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormBuscarAlumno.Designer.cs">
+      <DependentUpon>FormBuscarAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscarApoderado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarApoderado.Designer.cs">
+      <DependentUpon>FormBuscarApoderado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGestionarProfesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGestionarProfesor.Designer.cs">
+      <DependentUpon>FormGestionarProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarCurso%28secretario%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarUsuario%28todos%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarUsuario%28todos%29.Designer.cs">
+      <DependentUpon>frmBuscarUsuario%28todos%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCrearSeccion%28secretario%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCrearSeccion%28secretario%29.Designer.cs">
+      <DependentUpon>frmCrearSeccion%28secretario%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarAlumno%28apoderado%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarAlumno%28apoderado%29.Designer.cs">
+      <DependentUpon>frmEditarAlumno%28apoderado%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFeedback%28profesor%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFeedback%28profesor%29.Designer.cs">
+      <DependentUpon>frmFeedback%28profesor%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionarAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionarAsistencia.Designer.cs">
+      <DependentUpon>frmGestionarAsistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionarCursoPorSeccion%28Secretario%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionarCursos%28secretario%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionarCursos%28secretario%29.Designer.cs">
+      <DependentUpon>frmGestionarCursos%28secretario%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionarCursos_secretario_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionarHorario%28Secretario%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionarSec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionarSec.Designer.cs">
+      <DependentUpon>frmGestionarSec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionarTipoNota%28secretario%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionarTipoNota%28secretario%29.Designer.cs">
+      <DependentUpon>frmGestionarTipoNota%28secretario%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIniciarTipoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInscribirAlumno_apoderado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInscribirAlumno_apoderado.Designer.cs">
+      <DependentUpon>frmInscribirAlumno_apoderado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInscribirUsuario%28secretario%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInscribirUsuario%28secretario%29.Designer.cs">
+      <DependentUpon>frmInscribirUsuario%28secretario%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInscribirUsuario_secretario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInscribirUsuario_secretario.Designer.cs">
+      <DependentUpon>frmInscribirUsuario_secretario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListarAlumnos%28apoderado%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListarAlumnos%28apoderado%29.Designer.cs">
+      <DependentUpon>frmListarAlumnos%28apoderado%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListarCursos%28apoderado%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListarCursos%28apoderado%29.Designer.cs">
+      <DependentUpon>frmListarCursos%28apoderado%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListarNotas%28apoderado%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListarNotas%28apoderado%29.Designer.cs">
+      <DependentUpon>frmListarNotas%28apoderado%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatricularAlumno%28Apoderado%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatricularAlumno%28Apoderado%29.Designer.cs">
+      <DependentUpon>frmMatricularAlumno%28Apoderado%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatricularAlumnos%28secretario%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatricularAlumnos%28secretario%29.Designer.cs">
+      <DependentUpon>frmMatricularAlumnos%28secretario%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuInscribirAlumno_Apoderado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuInscribirAlumno_Apoderado.Designer.cs">
+      <DependentUpon>frmMenuInscribirAlumno_Apoderado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuPrincipalAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuPrincipalAuxiliar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuPrincipalProfesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuPrincipalSecretario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecuperarContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReestablecerContraseña.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReestablecerContraseña.Designer.cs">
+      <DependentUpon>frmReestablecerContraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarNotas%28profesor%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarNotas%28profesor%29.Designer.cs">
+      <DependentUpon>frmRegistrarNotas%28profesor%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResportEstadisticoEvaluacion%28profesor%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResportEstadisticoEvaluacion%28profesor%29.Designer.cs">
+      <DependentUpon>frmResportEstadisticoEvaluacion%28profesor%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVerFeedbak%28apoderado%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVerFeedbak%28apoderado%29.Designer.cs">
+      <DependentUpon>frmVerFeedbak%28apoderado%29.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBuscarAlumno.resx">
+      <DependentUpon>FormBuscarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarApoderado.resx">
+      <DependentUpon>FormBuscarApoderado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGestionarProfesor.resx">
+      <DependentUpon>FormGestionarProfesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarUsuario%28todos%29.resx">
+      <DependentUpon>frmBuscarUsuario%28todos%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCrearSeccion%28secretario%29.resx">
+      <DependentUpon>frmCrearSeccion%28secretario%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFeedback%28profesor%29.resx">
+      <DependentUpon>frmFeedback%28profesor%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionarCursos%28secretario%29.resx">
+      <DependentUpon>frmGestionarCursos%28secretario%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionarSec.resx">
+      <DependentUpon>frmGestionarSec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionarTipoNota%28secretario%29.resx">
+      <DependentUpon>frmGestionarTipoNota%28secretario%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInscribirAlumno_apoderado.resx">
+      <DependentUpon>frmInscribirAlumno_apoderado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInscribirUsuario%28secretario%29.resx">
+      <DependentUpon>frmInscribirUsuario%28secretario%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInscribirUsuario_secretario.resx">
+      <DependentUpon>frmInscribirUsuario_secretario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListarAlumnos%28apoderado%29.resx">
+      <DependentUpon>frmListarAlumnos%28apoderado%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListarCursos%28apoderado%29.resx">
+      <DependentUpon>frmListarCursos%28apoderado%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListarNotas%28apoderado%29.resx">
+      <DependentUpon>frmListarNotas%28apoderado%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatricularAlumno%28Apoderado%29.resx">
+      <DependentUpon>frmMatricularAlumno%28Apoderado%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatricularAlumnos%28secretario%29.resx">
+      <DependentUpon>frmMatricularAlumnos%28secretario%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuInscribirAlumno_Apoderado.resx">
+      <DependentUpon>frmMenuInscribirAlumno_Apoderado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarNotas%28profesor%29.resx">
+      <DependentUpon>frmRegistrarNotas%28profesor%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVerFeedbak%28apoderado%29.resx">
+      <DependentUpon>frmVerFeedbak%28apoderado%29.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
